@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-font-family: 'poppins', sans-serif;
+    --light-whiate: white;
+    --gray: gray;
+    --gray-1: #e3e3e3;
+
+}
+
+body {
+    font-family: var(--primary-font-family);
+    font-size: 14px;
+}
+
+.wrapper {
+    padding: 0 0 100px;
+    background-image: url("371547.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    min-height: 100%;
+    /* height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.wrapper .logo img {
+    max-width: 40%;
+
+}
+
+.wrapper input {
+    background-color: var(--light-white);
+    border-color: var(--light-white);
+    color: var(--gray);
+}
+
+.wrapper input:focus {
+    box-shadow: none;
+}
+
+.wrapper .passwordinfo{
+    font-size: 10px;
+}
+
+.wrapper .submit_btn {
+    padding: 15px;
+    font-weight: 500;
+}
+
+.wrapper .login_with {
+    padding: 8px 15px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.wrapper .submit_btn:focus,
+.wrapper .login_with:focus {
+    box-shadow: none;
+}
+
+.wrapper .login_with:hover {
+    background-color: var(--gray-1);
+    border-color: var(--gray-1);
+
+}
+.wrapper .login_with img {
+    max-width: 7%;
+}
+.wrapper .otp_input input{
+    width: 14%;
+    height: 60px;
+    text-align: center;
+    font-size:20px;
+    font-weight: 600;
+    margin:3px 8px 0 8px;
+}
