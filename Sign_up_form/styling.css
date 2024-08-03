@@ -14,12 +14,11 @@
 
 body {
     font-family: var(--primary-font-family);
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 .wrapper {
     padding: 0 0 100px;
-    /* background-image: url("/Bootstrap/Log_in form/Images/371547.jpg"); */
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: contain;
